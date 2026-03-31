@@ -104,6 +104,7 @@ PCI_received ~ Age + Stage + Response_to_initial_therapy +
 
 ### PCI Receipt by Treatment Response
 ![PCI by Response](figures/pci_by_response.png)
+
 Patients with complete response show a higher proportion of PCI receipt compared to partial or no response groups.
 ---
 
