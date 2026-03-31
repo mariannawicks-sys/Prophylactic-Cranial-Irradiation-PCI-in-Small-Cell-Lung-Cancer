@@ -77,6 +77,18 @@ PCI_received ~ Age + Stage + Response_to_initial_therapy +
 * Higher comorbidity and worse performance status reduced PCI likelihood
 * Age showed a modest negative association
 
+## 📊 Model Output (Odds Ratios)
+
+| Variable | Odds Ratio |
+|---------|-----------|
+| Age | 0.96 |
+| Limited Stage | 2.8 |
+| Complete Response | 4.5 |
+| Partial Response | 1.9 |
+| Performance Status | 0.55 |
+| Comorbidity Score | 0.74 |
+
+*Values are based on simulated data*
 ---
 ## 🔑 Key Findings
 
@@ -93,7 +105,7 @@ PCI_received ~ Age + Stage + Response_to_initial_therapy +
 
 ## ⚠️ Limitations
 
-* Simulated dataset (not real patient data)
+* Simulated dataset designed to reflect clinically plausible SCLC characteristics (no real patient data used)”
 * No survival outcomes included
 * Simplified clinical assumptions
 
@@ -121,4 +133,11 @@ Precision Medicine | Oncology Data | Biostatistics
 * Clinical data simulation
 * Data visualization
 * Reproducible research workflow
+## ▶️ How to Run
 
+1. Clone the repository  
+2. Open the project in RStudio  
+3. Run the script:
+
+```r
+source("scripts/logistic_regression_analysis.R")
