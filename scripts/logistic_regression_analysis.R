@@ -38,3 +38,10 @@ table(sclc_data$PCI_received)model <- glm(PCI_received ~ Age + Stage + Response_
              family = binomial)
 
 summary(model)
+model <- glm(PCI_received ~ Age + Stage + Response_to_initial_therapy +
+               Performance_status + Comorbidity_score,
+             data = sclc_data,
+             family = binomial)
+
+summary(model)
+exp(coef(model))  # Odds ratios
