@@ -32,4 +32,9 @@ plot_age <- ggplot(sclc_data, aes(x = Age, fill = PCI_received)) +
 ggsave("figures/age_histogram.png", plot_age, dpi = 300)
 
 # Summary
-table(sclc_data$PCI_received)
+table(sclc_data$PCI_received)model <- glm(PCI_received ~ Age + Stage + Response_to_initial_therapy +
+               Performance_status + Comorbidity_score,
+             data = sclc_data,
+             family = binomial)
+
+summary(model)
