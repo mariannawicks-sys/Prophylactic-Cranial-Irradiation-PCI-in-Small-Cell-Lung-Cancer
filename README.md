@@ -99,7 +99,11 @@ PCI_received ~ Age + Stage + Response_to_initial_therapy +
 
 ## 📉 Example Visualization
 
+### Age Distribution by PCI Receipt
 ![Age Distribution](figures/age_histogram.png)
+
+### PCI Receipt by Treatment Response
+![PCI by Response](figures/pci_by_response.png)
 
 ---
 
