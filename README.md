@@ -78,6 +78,12 @@ PCI_received ~ Age + Stage + Response_to_initial_therapy +
 * Age showed a modest negative association
 
 ---
+## 🔑 Key Findings
+
+- Patients with **limited-stage disease** were more likely to receive PCI  
+- **Complete response to therapy** strongly increased PCI likelihood  
+- Higher **comorbidity burden** reduced PCI use  
+- Older patients were slightly less likely to receive PCI  
 
 ## 📉 Example Visualization
 
