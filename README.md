@@ -110,7 +110,7 @@ Patients with complete response show a higher proportion of PCI receipt compared
 
 ## ⚠️ Limitations
 
-* Simulated dataset designed to reflect clinically plausible SCLC characteristics (no real patient data used)”
+* Simulated dataset designed to reflect clinically plausible SCLC characteristics (no real patient data used)
 * No survival outcomes included
 * Simplified clinical assumptions
 
